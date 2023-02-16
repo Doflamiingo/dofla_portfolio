@@ -6,10 +6,11 @@ import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import CodeIcon from "@mui/icons-material/Code";
 import BrushIcon from "@mui/icons-material/Brush";
-import Button from "@mui/material/Button";
+
 import DeleteIcon from "@mui/icons-material/Delete";
 import SendIcon from "@mui/icons-material/Send";
 import Stack from "@mui/material/Stack";
+import Button from 'react-bootstrap/Button';
 
 const Together = () => {
   return (
@@ -42,16 +43,10 @@ const Together = () => {
       </div>
       <div className="bttn">
         <a href="mailto:raguetteraphael@gmail.com">
-          <Button variant="contained" endIcon={<SendIcon />}>
+        <Button variant="dark" Dark endIcon={<SendIcon />}>
             Donnons vie à votre projet
           </Button>
         </a>
-        <Button
-          disabled={false}
-          size="medium"
-          variant="elevated"
-          color="success"
-        />
       </div>
     </div>
   );

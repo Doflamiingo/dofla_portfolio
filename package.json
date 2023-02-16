@@ -1,5 +1,4 @@
 {
-  "homepage": "https://doflamiingo.github.io/portfolio",
   "name": "portfolio-final",
   "version": "0.1.0",
   "private": true,
@@ -21,7 +20,7 @@
     "mdb-react-ui-kit": "^5.0.0",
     "prop-types": "^15.8.1",
     "react": "^18.2.0",
-    "react-bootstrap": "^2.6.0",
+    "react-bootstrap": "^2.7.2",
     "react-bootstrap-icons": "^1.10.2",
     "react-dom": "^18.2.0",
     "react-lottie-player": "^1.5.4",
